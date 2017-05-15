@@ -15,7 +15,7 @@
     text-align: center;
     h1 {
       @include bold_font;
-      color: #529ECC;
+      color: $blue;
       font-size: 3.5rem;
       margin: 0;
     }

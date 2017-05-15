@@ -1,6 +1,6 @@
 $dark_gray: #2B2E2E;
 $light_gray: #C0C1C1;
-$green: #529ECC;
+
 
 @mixin bold_font {
   font-family: 'Dosis', sans-serif;
@@ -43,7 +43,7 @@ body {
 button, .button {
   border: none;
   outline: none;
-  background: $green;
+  background: #E6E200;
   padding: 1rem 3.5rem;
   border-radius: 0.1rem;
   a {
@@ -54,12 +54,12 @@ button, .button {
 }
 
 .button {
-  color: white;
+  color: $blue;
   margin: 2rem 0;
 }
 
 a {
-  color: $green;
+  color: $blue;
   text-decoration: none;
   &:hover {
     color: $dark_gray;
@@ -84,7 +84,7 @@ a {
 // HEADER STYLING
 
 header {
-  background: #529ECC;
+  background: $blue;
   position: absolute;
   top: 0;
   width: 100%;
@@ -121,7 +121,7 @@ header {
 // FOOTER STYLING (OPTIONAL)
 
 footer {
-  background: #529ECC;
+  background: $blue;
   width: 100%;
   padding: 2rem 0;
   color: white;
