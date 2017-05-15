@@ -19,12 +19,12 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .wrapper_with_padding {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 3.5rem 0;
 }
@@ -65,6 +65,21 @@ a {
     color: $dark_gray;
   }
 }
+
+// .alert {
+//   color: #FFFFFF;
+//   background-color: #cc5160;
+//   opacity: 1;
+//   margin: auto;
+//   width: 250px;
+//   height: 40px;
+//   font-size: 1.2em;
+//   text-align: center;
+//   line-height: 39px;
+//   border-radius: 2px;
+//   z-index: 99;
+// }
+
 
 // HEADER STYLING
 
